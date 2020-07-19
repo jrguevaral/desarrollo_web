@@ -1,0 +1,256 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin 0;
+}
+
+.header {
+  background-color: #1D252C;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.header img {
+  height: 80px;
+  margin-left: 20px;
+}
+
+.header a {
+  color:white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.header ul{
+  display:flex;
+  height: inherit;
+}
+
+.header ul li{
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  padding: 15px;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #1D252C;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio{
+  background-color: #FAFAFA;
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-course, 
+.project-date, 
+.project-url {
+  margin: 10px 0;
+}
+
+.project strong{
+  font-family: "Fjalla One", sans-serif;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.project-imageContainer { 
+  width: 500px;
+}
+
+.eventlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.eventlist-title{
+  margin-left: 20px;
+}
+
+.event {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+  width: 480px;
+  overflow: hidden;
+  background-color: #F4FBFF;
+}
+
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  background-color: white;
+  margin-top: -40px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description{
+  text-align: left;
+}
+
+.event-url { 
+  color: #026fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.contact{
+  background-color: #026fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-email input{
+  border-color: grey;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 5px 20px 5px 30px;
+  background-image: url("../images/envelope.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: center;
+}
+
+.form-email button{
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.form-email h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: bold;  
+  font-size: 20px;
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+
+.social-link.twitter{
+  background-image: url("../images/twitter.svg");
+}
+
+.social-link.facebook{
+  background-image: url("../images/facebook.svg");
+}
+
+.social-link.github{
+  background-image: url("../images/github.svg");
+}
+
+.social-link.instagram{
+  background-image: url("../images/instagram.svg");
+}
+
+.footer{
+  background-color: #1D252C;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer p{
+  margin: 0 20px;
+}
+
+.footer img{
+  vertical-align: middle;
+}
